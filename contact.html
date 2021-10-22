@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Righter">
+
+
+
+    <title> mi349_blog </title>
+
+    <style> 
+     
+    .button {
+
+                height: 50px;
+                width: 150px;
+                background-color:sienna;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+                float:left;
+                margin-right: 5px;
+
+            }
+
+            .other_button {
+
+                height: 50px;
+                width: 150px;
+                background-color:sienna;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+
+            }
+    
+    </style>
+</head>
+<body style= "background-color: rgb(248, 172, 32);">
+
+
+    <h1 >Welcome to my Awesome Blog Part 2!</h1> 
+
+    <form style="display: inline" action="index.html" method="get">
+        <p> <button class="button">Back to Home</button></p>
+       </form>
+
+       <form style="display: inline" action="about.html" method="get">
+        <p> <button class="other_button">About</button></p>
+       </form>
+     
+
+
+    <h2> Contact </h2>
+
+
+    <p> If you need to contact me, please fill out the form below and submit it by pressing the <strong>submit</strong> button. 
+        Once your form is submitted, I will get back to you shortly! 
+
+
+         
+         <br>
+
+         <form action="index.html" method="get" >
+            <div>
+              <label for="name">Name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+              <label for="email">Email Address: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="reasons">Reason for contact: </label>
+                    <select>
+                        <option value="hi">Saying Hi</option>
+                        <option value="contractor">Looking for Contractor</option>
+                        <option value="interview">Interested in an Interview</option>
+                    </select>
+              </div>
+              <br> 
+              <div>
+                <label for="comments">Put any additional information here: </label>
+                <br>
+                <textarea id="comments" name="comments" rows="4" cols="50"> </textarea>
+              </div>
+            <div>
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+
+
+
+
+
+
+
+   
+
+   
+</body>
+</html>
+
+<!-- test comment-->
