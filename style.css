@@ -1,0 +1,78 @@
+
+html  {background-color: rgb(175, 93, 0);}
+
+.button {
+
+    height: 50px;
+    width: 150px;
+    background-color:sienna;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    float:left;
+    margin-right: 5px;
+    display: inline
+
+}
+
+.final_button {
+
+    height: 50px;
+    width: 150px;
+    background-color:sienna;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    display: inline
+
+}
+
+.button:hover {
+background-color:darkred;
+color: #fff; 
+}
+
+
+.final_button:hover {
+    background-color:darkred;
+    color: #fff; 
+    }
+
+
+body {
+
+    background-color: rgb(248, 172, 32);
+    font-family: 'Times New Roman', Times, serif; 
+    padding: 40px; 
+    color: black;
+    border-top: 15px solid rgb(175, 93, 0);; 
+    border-bottom: 15px solid rgb(175, 93, 0);;
+    border-left: 15px solid rgb(175, 93, 0);;
+    border-right: 15px solid rgb(175, 93, 0);; 
+    
+
+    
+}
+
+p {line-height: 1.1em ;}
+
+#post { border-top: 1px dotted gray; }
+
+
+h2 {font-size: larger;}
+
+
+#comments { 
+    
+    position: relative;
+    top: 50px; }
+
+
+    input[type="submit"] {
+        padding: 2px 10px;
+        border: 1px solid #804040;
+        background:rgb(216, 81, 19); 
+        font-family: 'Times New Roman', Times, serif;
+        position: relative; 
+        top: 35px; 
+         
+    }
+    
