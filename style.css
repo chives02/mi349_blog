@@ -3,6 +3,12 @@
 
 html  {background-color: rgb(248, 172, 32);}
 
+section {
+    
+    background-color: rgb(248, 172, 32);; 
+        
+}
+
 div.HAL
 {
     position: relative;
