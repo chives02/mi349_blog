@@ -1,5 +1,24 @@
 
-html  {background-color: rgb(175, 93, 0);}
+
+
+html  {background-color: rgb(248, 172, 32);}
+
+div.HAL
+{
+    position: relative;
+    top: 40px;
+    float: right;
+    margin-left: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    
+
+
+} 
+
+
+ 
 
 .button {
 
@@ -10,7 +29,8 @@ html  {background-color: rgb(175, 93, 0);}
     font-family: Georgia, 'Times New Roman', Times, serif; 
     float:left;
     margin-right: 5px;
-    display: inline
+    display: inline;
+    
 
 }
 
@@ -21,7 +41,7 @@ html  {background-color: rgb(175, 93, 0);}
     background-color:sienna;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    display: inline
+    display: inline;
 
 }
 
@@ -41,12 +61,7 @@ body {
 
     background-color: rgb(248, 172, 32);
     font-family: 'Times New Roman', Times, serif; 
-    padding: 40px; 
-    color: black;
-    border-top: 15px solid rgb(175, 93, 0);; 
-    border-bottom: 15px solid rgb(175, 93, 0);;
-    border-left: 15px solid rgb(175, 93, 0);;
-    border-right: 15px solid rgb(175, 93, 0);; 
+    
     
 
     
