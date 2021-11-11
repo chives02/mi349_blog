@@ -106,13 +106,20 @@ h2 {font-size: larger;}
          
     }
     
+    /* below was an attempt to create a sticky button. I wanted to create a transparent button that would always show up on the screen but the code does not seem to cooperate. any 
+    help for why this is the case would be appreciated! :) */ 
+    
     .sticky_button {
-
-        position: sticky;
-        background-color: transparent;
-        background-repeat: no-repeat;
-        border: none;
-        cursor: pointer;
-        overflow: hidden;
-        outline: none
+    position: sticky; 
+    height: 50px;
+    width: 150px;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    outline: none;
     }
+
+    
+  
