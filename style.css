@@ -125,11 +125,14 @@ h2 {font-size: larger;}
     
     {
 
-        img {height: 280px;
+        img {height: 300px;
         margin-top: 280px;
         }
 
     }
+
+    /* The main thing that I wanted to achieve by using media queries was to make it so my images don't overlap with text (specifically in the contact page) when the screen gets
+    small. By adjusting the height and margins, I was able to achieve this! */ 
 
     
   
